@@ -12,6 +12,9 @@ const Home = () => {
 
   return (
     <>
+      <h1 className="w-screen mx-20 flex justify-start text-4xl font-bold">
+        KANG TUKANG
+      </h1>
       {isLoading ? (
         <div className="w-full mx-5 h-[45rem] flex justify-center items-center ">
           <div className="loader2"></div>
